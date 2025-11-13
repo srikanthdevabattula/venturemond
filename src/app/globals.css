@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+
 @layer utilities {
   @keyframes float {
     0%, 100% {
@@ -24,11 +26,11 @@
 }
 
 .btn1{
-  @apply px-8 py-3 bg-[#0BA57F] text-black text-sm md:text-lg font-semibold rounded-full hover:bg-[#09c08f] transition
+  @apply px-8 py-2 bg-[#0BA57F] text-black text-sm md:text-lg font-semibold rounded-full hover:bg-[#09c08f] transition
 }
 
 .btn2{
-  @apply px-8 py-3 border border-[#0BA57F] text-sm md:text-lg text-[#0BA57F] font-semibold rounded-full hover:bg-[#0BA57F] hover:text-black transition
+  @apply px-8 py-2 border border-[#0BA57F] text-sm md:text-lg text-[#0BA57F] font-semibold rounded-full hover:bg-[#0BA57F] hover:text-black transition
 }
 
 @keyframes glow {
@@ -39,5 +41,9 @@
 .glow-text {
   animation: glow 3s ease-in-out infinite;
 }
+
+
+
+
 
 

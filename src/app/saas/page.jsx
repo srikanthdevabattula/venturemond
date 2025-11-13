@@ -1,8 +1,15 @@
+import AboutSaaS from "./AboutSaaS"
+import FeaturedWorkspace from "./FeaturedWorkspace"
+import SaaSHero from "./SaasHero"
 
 
 const Saas = () => {
   return (
-    <div>Saas</div>
+    <div>
+      <SaaSHero/>
+      <AboutSaaS/>
+      <FeaturedWorkspace/>
+    </div>
   )
 }
 
