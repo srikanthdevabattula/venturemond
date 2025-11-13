@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer=()=> {
   return (
-    <footer className="bg-[#0B0B0B] border-t border-gray-800 text-gray-400 mt-20">
+    <footer className="bg-[#0B0B0B] border-t border-gray-800 text-gray-400 ">
       <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
         {/* Left Section - Logo and Tagline */}
         <div className="flex flex-col gap-3">

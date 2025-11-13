@@ -16,9 +16,17 @@
 }
 
 .heading{
-  @apply text-2xl md:text-3xl lg:text-4xl xl:text-6xl;
+  @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl;
 }
 
 .para{
  @apply text-[12px] md:text-[14px] lg:text-[19px]
+}
+
+.btn1{
+  @apply px-8 py-3 bg-[#0BA57F] text-black text-sm md:text-lg font-semibold rounded-full hover:bg-[#09c08f] transition
+}
+
+.btn2{
+  @apply px-8 py-3 border border-[#0BA57F] text-sm md:text-lg text-[#0BA57F] font-semibold rounded-full hover:bg-[#0BA57F] hover:text-black transition
 }

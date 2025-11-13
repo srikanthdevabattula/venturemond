@@ -49,13 +49,13 @@ const Hero = () => {
         >
           <Link
             href="/studio"
-            className=" md:px-8 py-3 bg-[#0BA57F] text-black text-sm md:text-lg font-semibold rounded-full hover:bg-[#09c08f] transition"
+            className=" btn1"
           >
             Explore Studio
           </Link>
           <Link
             href="/saas"
-            className=" md:px-8 py-3 border border-[#0BA57F] text-sm md:text-lg text-[#0BA57F] font-semibold rounded-full hover:bg-[#0BA57F] hover:text-black transition"
+            className=" btn2"
           >
             Explore SaaS
           </Link>

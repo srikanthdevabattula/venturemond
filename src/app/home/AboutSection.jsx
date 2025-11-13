@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const AboutSection = () => {
   return (
-    <section className="relative bg-[#0B0B0B] text-white py-16 px-6 md:px-16 overflow-hidden">
+    <section className="relative bg-[#0B0B0B] text-white lg:py-16 md:py-10 py-5 px-6 md:px-16 overflow-hidden">
      
       <div className="absolute inset-0 bg-gradient-to-b from-[#0BA57F]/10 via-transparent to-transparent -z-10" />
 
