@@ -19,7 +19,7 @@ import { useState } from "react";
   ];
 
   return (
-    <header className=" top-0 left-0 w-full bg-white backdrop-blur-md border-b border-gray-800 shadow-[0_0_15px_#0BA57F22] z-50">
+    <header className=" sticky md:relative z-[9999] top-0 left-0 w-full bg-white backdrop-blur-md border-b border-gray-800 shadow-[0_0_15px_#0BA57F22] z-50">
       <nav className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         
         {/* Logo Section */}
@@ -30,7 +30,7 @@ import { useState } from "react";
             width={80}
             height={80}
             priority
-            className="object-contain"
+            className="object-contain lg:w-[100px]"
           />
           
         </Link>
